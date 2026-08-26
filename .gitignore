@@ -222,6 +222,13 @@ __marimo__/
 diseases/*/*/results/*
 !diseases/*/*/results/.gitkeep
 
+# Datasets are derived, reproducible, and carry source licences (ChEMBL CC BY-SA
+# 3.0, ZINC terms) that do not compose with Apache-2.0. Document them in a
+# DATA.md with a sha256 instead of committing them.
+diseases/*/*/data/*
+!diseases/*/*/data/.gitkeep
+!diseases/*/*/data/DATA.md
+
 # Docking / structure artefacts
 *.pdbqt
 *.dlg
