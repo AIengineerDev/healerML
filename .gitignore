@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- healerML ---------------------------------------------------------------
+# Run outputs are reproducible from the notebooks; promote to data/ deliberately.
+diseases/*/*/results/*
+!diseases/*/*/results/.gitkeep
+
+# Docking / structure artefacts
+*.pdbqt
+*.dlg
+*.cif
+*.pdb
+*.sdf
+*.mol2
+docked.csv
+
+# Colab / local scratch
+.ipynb_checkpoints/
