@@ -1,6 +1,29 @@
-# healerML
+# Healer ML
 
-Machine learning and structure-based drug discovery work, organised by disease.
+Open source machine learning for disease screening and treatment research.
+
+## Why this exists
+
+I lost my father to lung cancer in 2010. It was found too late.
+Effective treatment for early stage disease already existed. The
+failure was detection.
+
+I am not a doctor. I am an ML engineer, and detection is a problem
+shaped like something I know how to work on. This project is my
+attempt to use what I do know against a problem that took something
+from me.
+
+I cannot do it alone, and I do not intend to. Everything here is
+public: the code, the data pipelines, the results, and the failures.
+If you know ML, imaging, chemistry, statistics, or clinical
+practice, there is work here for you.
+
+## Status
+
+Early. Lung cancer screening is the first target. See [ROADMAP.md](ROADMAP.md)
+for open areas and [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+
+## How the repo is organised
 
 Each disease gets its own directory, and inside it the work splits into two
 stages that have genuinely different inputs, metrics and failure modes:
