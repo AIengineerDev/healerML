@@ -33,5 +33,7 @@ every downstream number is noise.
 
 ## treatment/
 
-Empty. Lead optimisation, ADMET/toxicity, and resistance modelling for hits that
-come out of the screen belong here.
+[`treatment/notebooks/lsd1_docking_v8.ipynb`](treatment/notebooks/lsd1_docking_v8.ipynb)
+continues the LSD1 workflow with shortlist refinement and pose inspection for
+screen hits. Lead optimisation, ADMET/toxicity, and resistance modelling for
+hits that come out of the screen belong here.
